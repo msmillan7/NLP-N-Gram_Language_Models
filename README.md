@@ -1,8 +1,16 @@
 # NLP-N-Gram_Language_Models
 
-In this project we use the DUC 2005 dataset to assess the performance of three n-gram language models (where n = 2, 3, and 4) with and without Laplace-k smoothing.
+In this project we use the DUC 2005 dataset to assess the performance of three n-gram language models (where n = 2, 3, and 4) with and without Laplace-k smoothing. 
 
-The project contains four pipelines (jupyter notebooks), each of them performing a specific task:
+The code is written within jupyter notebooks, which allowed us to have one pipeline (or notebook) to perform each specific task. Thus, the outputs fo the first pipeline are saved and used as inputs to the next pipeline and so forth. This allows for easy compiling and running of the code:   
+1. Clone the folder from GitHub. 
+2. Navigate to the folder from within your terminal. 
+3. Open up an editor including Jupyter Lab or Visual Studio Code that allows for execution of jupyter notebooks. 
+4. Run the cells of the notebooks sequentially.
+
+## Contents
+
+The project contains four pipelines (jupyter notebooks) that each of them performing a specific task:
 - NLP-Assignment_1-preprocessing_training.ipynb: includes the preprocessing of the training data and generates the following outputs, that will be used in the next pipelines:
   - unknown_words.txt: List of words tagged as \<UNK\> during the preprocessing.
   - used_words.txt: List of unique words after preprocessing.
