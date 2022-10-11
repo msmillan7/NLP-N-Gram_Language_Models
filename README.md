@@ -2,7 +2,7 @@
 
 In this project we use the DUC 2005 dataset to assess the performance of three n-gram language models (where n = 2, 3, and 4) with and without Laplace-k smoothing. 
 
-The code is written within jupyter notebooks, which allowed us to have one pipeline (or notebook) to perform each specific task. Thus, the outputs fo the first pipeline are saved and used as inputs to the next pipeline and so forth. This allows for easy compiling and running of the code:   
+The code is written within jupyter notebooks, which allowed us to have one pipeline (or notebook) to perform each specific task. Thus, the outputs of the first pipeline are saved and used as inputs to the next pipeline and so forth. This allows for easy compiling and running of the code:   
 1. Clone the folder from GitHub. 
 2. Navigate to the folder from within your terminal. 
 3. Open up an editor including Jupyter Lab or Visual Studio Code that allows for execution of jupyter notebooks. 
